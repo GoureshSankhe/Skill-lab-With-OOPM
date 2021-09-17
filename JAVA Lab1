@@ -1,0 +1,50 @@
+// Javascxript to add two numbers
+public class AddTwoNumbers {
+
+   public static void main(String[] args) {
+        
+      int num1 = 10, num2 = 15, sum;
+      sum = num1 + num2;
+
+      System.out.println("Sum of these numbers: "+sum);
+   }
+}
+
+//Javascript to find even and odd number
+import java.util.Scanner;
+
+public class Main
+{
+  public static void main(String args[])
+  {
+    
+    Scanner input = new Scanner(System.in);
+    int num;  //Declare a variable
+    System.out.println("Enter a number:");
+    num = input.nextInt();
+
+    if ( num % 2 == 0 )
+        System.out.println("The entered number is even");
+     else
+        System.out.println("The entered number is odd");
+  }
+}
+
+// Javascript to swap two numbers
+import java.util.*;  
+class Swap_With {  
+    public static void main(String[] args) {  
+       int x, y, t;// x and y are to swap   
+       Scanner sc = new Scanner(System.in);  
+       System.out.println("Enter the value of X and Y");  
+       x = sc.nextInt();  
+       y = sc.nextInt();  
+       System.out.println("before swapping numbers: "+x +"  "+ y);  
+       /*swapping */  
+       t = x;  
+       x = y;  
+       y = t;  
+       System.out.println("After swapping: "+x +"   " + y);  
+       System.out.println( );  
+    }    
+}  
