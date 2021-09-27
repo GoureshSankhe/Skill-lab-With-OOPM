@@ -5,27 +5,27 @@ class PrintStudentDetailsUsingClasses
         Student students[] = new Student[5];
     
         students[0] = new Student();
-        students[0].name = "Rajesh";
+        students[0].name = "xyz";
         students[0].marks = 45;
         students[0].section = '6.0';
     
         students[1] = new Student();
-        students[1].name = "Soham";
+        students[1].name = "xyz1";
         students[1].marks = 78;
         students[1].section = '7.8';
     
         students[2] = new Student();
-        students[2].name = "ayush";
+        students[2].name = "xyz2";
         students[2].marks = 83;
         students[2].section = '8.6';
     
         students[3] = new Student();
-        students[3].name = "Kamlesh";
+        students[3].name = "xyz3";
         students[3].marks = 77;
         students[3].section = '7.7';
     
         students[4] = new Student();
-        students[4].name = "ganesh";
+        students[4].name = "xyz4";
         students[4].marks = 93;
         students[4].section = '9.3';
     
