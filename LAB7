@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+class Student{
+	int Rollno;
+	string stream;
+	char Div;
+	
+	
+	public:
+	Student(){
+		Rollno=0;
+		stream= "NULL";
+		Div = '-';
+	}
+	
+	
+	void displayDetails(){
+		cout<<"Roll no is = "<<Rollno<<endl<<"Stream is = "<<stream<<endl<<"Division is = "<<Div<<endl; 
+	}
+	
+	friend void insertDetails(Student &stud);
+	
+};
+void insertDetails(Student &stud){
+		stud.Rollno = 10;
+		stud.stream = "EXTC";
+		stud.Div = 'A';
+}
+
+int main(){
+	Student stud;
+	stud.displayDetails();
+	insertDetails(stud);
+	stud.displayDetails();
+	return 0;
+}
