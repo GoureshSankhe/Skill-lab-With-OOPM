@@ -1,3 +1,8 @@
+Que2.)
+
+
+
+
 package P1;
 class Employee{
 float salary = 40000;
@@ -21,3 +26,73 @@ System.out.println("Hike for Temporary Employee is :" +t.hike);
 }
 }
 
+
+
+
+Que1.)
+
+Using System;
+Using System.Collection.Generic;
+Using System.Linq;
+Using System.Text;
+Using System.Threading.Tasks;
+
+class Employee
+{
+int empid;
+string name;
+Employee()
+{
+empid=1;
+name="abcd";
+}
+Employee(int eid,string nm)
+{
+empid=eid;
+name=nm;
+}
+public void put_emp_info()
+{
+console.writeline("Employee id is :-" + empid);
+console.writeline("Employee name is :-" + name);
+
+}
+}
+public class Department:Employee
+{
+int deptid;
+string dept_name
+department()
+{
+deptid=1;
+dept_name="abcd";
+}
+department(int did,string nm)
+{
+deptid=did;
+dept_name=nm;
+}
+public void put_dept_info()
+{
+console.writeline("department id is :-" + deptid);
+console.writeline("department name is :-" + ept_name);
+
+}
+}
+class salary:department
+{
+int sal;
+public salary()
+{
+sal=1;
+}
+public salary(int s);
+{
+sal=s;
+}
+public void put_sal()
+{
+console.writeline("salary id is :-" + sal);
+}
+}
+}
